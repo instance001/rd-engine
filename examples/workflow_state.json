@@ -1,0 +1,20 @@
+{
+  "templates": {
+    "stages": [
+      "queued",
+      "running",
+      "review",
+      "done"
+    ]
+  },
+  "buckets": {
+    "current_stage": "review",
+    "artifacts": [
+      "README rewrite",
+      "generic reducer core",
+      "tests"
+    ],
+    "blockers": []
+  },
+  "log": []
+}

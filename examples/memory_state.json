@@ -1,0 +1,22 @@
+{
+  "templates": {
+    "bucket_map": {
+      "active_projects": "Current work worth loading quickly.",
+      "working_style": "Stable preferences about collaboration and execution.",
+      "routing_packets": "Named context cards that point to adjacent records."
+    }
+  },
+  "buckets": {
+    "active_projects": [
+      "Reduce RD Engine to a minimal drop-in core."
+    ],
+    "working_style": {
+      "prefers": [
+        "docs-first framing",
+        "adaptable mechanisms",
+        "local-first tooling"
+      ]
+    }
+  },
+  "log": []
+}
