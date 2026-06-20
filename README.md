@@ -163,6 +163,7 @@ Common replacements:
 - [docs/00_core_idea.md](docs/00_core_idea.md)
 - [docs/01_drop_in_guide.md](docs/01_drop_in_guide.md)
 - [docs/02_use_cases.md](docs/02_use_cases.md)
+- [GLOSSARY.md](GLOSSARY.md)
 - [examples/minimal_host.rs](examples/minimal_host.rs)
 - [examples/project_memory_host.rs](examples/project_memory_host.rs)
 - [examples/memory_state.json](examples/memory_state.json)
