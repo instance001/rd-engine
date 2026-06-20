@@ -31,8 +31,8 @@ If you only want those files and want to rename everything else, that is a valid
 
 If you want the shortest possible path, copy:
 
-- [engine.rs](https://github.com/instance001/rd-engine/blob/main/src/engine.rs)
-- [save.rs](https://github.com/instance001/rd-engine/blob/main/src/save.rs)
+- [engine.rs](src/engine.rs)
+- [save.rs](src/save.rs)
 
 and start renaming from there.
 
@@ -40,8 +40,8 @@ and start renaming from there.
 
 If you want to lift this straight into another project:
 
-1. Copy [engine.rs](https://github.com/instance001/rd-engine/blob/main/src/engine.rs) into your project.
-2. Copy [save.rs](https://github.com/instance001/rd-engine/blob/main/src/save.rs) if you want save/load.
+1. Copy [engine.rs](src/engine.rs) into your project.
+2. Copy [save.rs](src/save.rs) if you want save/load.
 3. Keep these concepts:
    `templates`, `buckets`, `actions`, `reducers`, `events`.
 4. Rename only the domain nouns inside your reducer and bucket keys.
