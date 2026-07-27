@@ -15,6 +15,28 @@ Core idea:
 
 That is the whole mechanism.
 
+## Reducer Loop
+
+```mermaid
+flowchart LR
+    host["Host / UI / workflow<br/>requests a change"] --> action["EngineAction<br/>kind + target + payload"]
+    action --> reducer{"Reducer<br/>legal mutation boundary"}
+    reducer -->|approved| buckets["EngineState buckets<br/>canonical lasting truth"]
+    reducer -->|rejected| rejection["action_rejected event<br/>state remains inspectable"]
+    buckets --> events["EngineEvent + lines<br/>receipt for what changed"]
+    events --> save["EngineSaveEnvelope<br/>persist canonical state"]
+    save --> render["Host renders from buckets<br/>not scattered side effects"]
+    render --> host
+
+    classDef host fill:#eef7f2,stroke:#25624f,color:#14231d;
+    classDef core fill:#fff8ec,stroke:#9b5b2e,color:#2a1b10;
+    classDef receipt fill:#f3f0ea,stroke:#777,color:#333;
+
+    class host,render host;
+    class action,reducer,buckets core;
+    class rejection,events,save receipt;
+```
+
 ## What You Can Copy
 
 The crate gives you a very small surface:
