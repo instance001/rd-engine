@@ -11,6 +11,10 @@ That is the whole point.
 
 Everything else is adapter detail.
 
+Here, `truth` is a state-management term: the reducer-approved state that a host
+saves and reloads. It is not a claim of factual certainty, model knowledge, or
+mind-like cognition.
+
 ## Mental Model
 
 - templates are optional canonical shapes

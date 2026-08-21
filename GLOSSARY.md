@@ -17,10 +17,15 @@ What it is not:
 - a full app framework
 - one required memory schema
 - one required game or UI model
+- a claim of factual certainty, model knowledge, consciousness, or mind-like cognition
 
 ## Buckets
 
 Live state containers holding the current canonical truth.
+
+Here, `truth` means reducer-governed saved state: the data the host treats as
+authoritative for continuity. It does not mean metaphysical truth or model-owned
+knowledge.
 
 What they are:
 - the place lasting truth lives

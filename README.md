@@ -6,6 +6,10 @@
 
 It is meant to be easy to pick up, drop into a project, and rename to fit your domain.
 
+Terminology boundary: in this repository, `truth` means the canonical saved state
+the host agrees to treat as authoritative for a workflow. It is not a claim of
+factual certainty, model knowledge, consciousness, or mind-like cognition.
+
 Core idea:
 
 - keep lasting truth in buckets
