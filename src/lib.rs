@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 //! `RD Engine` is a tiny reducer-governed deterministic state core.
 //!
 //! The goal is legibility:

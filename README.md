@@ -211,6 +211,14 @@ rd-engine/
 
 ## License
 
-This repo is distributed under the `GNU Affero General Public License v3.0`.
+This repo is distributed under the `GNU Affero General Public License v3.0 or later` (`AGPL-3.0-or-later`), consistent with `Cargo.toml`.
 
 See [LICENSE](LICENSE).
+
+## Provenance, attribution, and citation
+
+- [Project provenance and attribution guidance](PROVENANCE.md)
+- [Citation metadata](CITATION.cff)
+- [Copy notices and voluntary logo/acknowledgement guidance](NOTICE.md)
+
+Copying code carries the applicable software-licence obligations. Crediting the documented architecture when it genuinely informed independent work is encouraged as voluntary scholarly/professional practice; it is not a licence condition for independently created methods.

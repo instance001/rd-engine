@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If RD Engine informed your work, please cite this repository."
+title: "RD Engine"
+type: software
+url: "https://github.com/instance001/rd-engine"
+repository-code: "https://github.com/instance001/rd-engine"
+license: "AGPL-3.0-or-later"
+abstract: "A small reducer-governed deterministic state core."
+keywords:
+  - reducer
+  - deterministic state
+  - state management
+  - Rust
